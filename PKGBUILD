@@ -1,7 +1,7 @@
 # Maintainer: dr460nf1r3 <dr460nf1r3 at garudalinux dot org>
 
 pkgname=kde-git-meta
-pkgver=1
+pkgver=2
 pkgrel=1
 arch=('any')
 url="https://chaotic.cx"
@@ -82,6 +82,8 @@ depends=(attica-git
         kscreen-git
         kscreenlocker-git
         kservice-git
+        ksystemstats-git
+        ksystemstats-git
         ktexteditor-git
         ktextwidgets-git
         kunitconversion-git
@@ -92,8 +94,8 @@ depends=(attica-git
         kwayland-git
         kwayland-integration-git
         kwidgetsaddons-git
-        kwindowsystem-git
         kwin-git
+        kwindowsystem-git
         kxmlgui-git
         kxmlrpcclient-git
         libkscreen-git
@@ -101,6 +103,7 @@ depends=(attica-git
         milou-git
         modemmanager-qt-git
         networkmanager-qt-git
+        plasma-browser-integration-git
         plasma-desktop-git
         plasma-framework-git
         plasma-integration-git
@@ -109,7 +112,9 @@ depends=(attica-git
         plasma-wayland-session-git
         plasma-workspace-git
         polkit-kde-agent-git
-        powerdevil
+        poppler-glib-git
+        poppler-qt5-git
+        powerdevil-git
         prison-git
         purpose-git
         qca-git
