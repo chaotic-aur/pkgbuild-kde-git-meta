@@ -7,7 +7,7 @@ arch=('any')
 url="https://chaotic.cx"
 license=('GPL')
 pkgdesc="Meta package for a full Plasma-git installation"
-replaces="kde-git"
+replaces=(kde-git)
 depends=(attica-git
         baloo-git
         bluedevil-git
