@@ -1,7 +1,7 @@
 # Maintainer: dr460nf1r3 <dr460nf1r3 at garudalinux dot org>
 
 pkgname=kde-git-meta
-pkgver=2
+pkgver=3
 pkgrel=1
 arch=('any')
 url="https://chaotic.cx"
@@ -33,6 +33,7 @@ depends=(attica-git
         kcoreaddons-git
         kcrash-git
         kdbusaddons-git
+        kde-gtk-config-git
         kdeclarative-git
         kdeconnect-git
         kdecoration-git
@@ -58,6 +59,7 @@ depends=(attica-git
         kiconthemes-git
         kidletime-git
         kimageannotator-git
+        kimageformats-git
         kinfocenter-git
         kinit-git
         kio-extras-git
@@ -105,6 +107,8 @@ depends=(attica-git
         networkmanager-qt-git
         plasma-browser-integration-git
         plasma-desktop-git
+        plasma-disks-git
+        plasma-firewall-git
         plasma-framework-git
         plasma-integration-git
         plasma-nm-git
@@ -125,4 +129,5 @@ depends=(attica-git
         spectacle-git
         syntax-highlighting-git
         systemsettings-git
-        threadweaver-git)
+        threadweaver-git
+        xdg-desktop-portal-kde-git)
