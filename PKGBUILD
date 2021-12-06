@@ -1,7 +1,7 @@
 # Maintainer: dr460nf1r3 <dr460nf1r3 at garudalinux dot org>
 
 pkgname=kde-git-meta
-pkgver=4
+pkgver=5
 pkgrel=1
 arch=('any')
 url="https://chaotic.cx"
@@ -13,7 +13,7 @@ depends=(attica-git
         bluedevil-git
         breeze-git
         breeze-icons-git
-        dolphin-git-git
+        dolphin-git
         frameworkintegration-git
         kaccounts-integration-git
         kactivities-git
@@ -74,7 +74,7 @@ depends=(attica-git
         knewstuff-git
         knotifications-git
         knotifyconfig-git
-        konsole-git-git
+        konsole-git
         kpackage-git
         kparts-git
         kpeople-git
@@ -113,6 +113,7 @@ depends=(attica-git
         plasma-integration-git
         plasma-nm-git
         plasma-pa-git
+        plasma-systemmonitor-git
         plasma-wayland-session-git
         plasma-workspace-git
         polkit-kde-agent-git
