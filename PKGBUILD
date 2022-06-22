@@ -1,7 +1,7 @@
 # Maintainer: dr460nf1r3 <dr460nf1r3 at garudalinux dot org>
 
 pkgname=kde-git-meta
-pkgver=5
+pkgver=6
 pkgrel=1
 arch=('any')
 url="https://chaotic.cx"
@@ -90,7 +90,7 @@ depends=(attica-git
         ktextwidgets-git
         kunitconversion-git
         kuserfeedback-git
-        kvantum-qt5-git
+        kvantum-git
         kwallet-git
         kwallet-pam-git
         kwayland-git
